@@ -49,7 +49,7 @@ body{
 /* Top title container */
 
 .landing-wrapper{
-  margin-top: 5rem;
+  margin-top: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,19 +240,21 @@ body{
 .spiral-container{
   display: flex;
   justify-content: center;
+  padding-top: 10rem;
 }
+
 .bg-spiral{
   margin-top: 5rem;
   width: 90%;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 
 /* Innovation Container */
 
 .innovation-container{
-  margin-top: -35%;
+  margin-top: -44%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -339,7 +341,7 @@ body{
 }
 
 .chart-img{
-  height: 19vw;
+  height: 18vw;
 }
 
 /* Technology Container */
@@ -430,7 +432,7 @@ body{
 .tech-card-text > p {
   color: #909DC1;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 1rem;
   text-align: left;
   flex-grow: 1;
@@ -440,7 +442,7 @@ body{
   gap: 0.3rem;
   color: #909DC1;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: auto; 
   align-self: flex-start;
 }
@@ -677,7 +679,7 @@ a svg.arrow-icon {
 
 
 /* Gradient Effects for Why Choose */
-.img-1::before {
+/* .img-1::before {
   content: "";
   position: absolute;
   top: 0;
@@ -747,7 +749,78 @@ a svg.arrow-icon {
     rgba(24, 52, 233, 0.1) 40%,
     rgba(24, 52, 233, 0) 80%
   );
+} */
+.img-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(11, 16, 115, 1) 0%,       /* Full strength at start */
+    rgba(11, 16, 115, 0.75) 10%,   /* Still strong */
+    rgba(11, 16, 115, 0.5) 30%,    /* Gradual fade */
+    rgba(11, 16, 115, 0.2) 50%,
+    rgba(11, 16, 115, 0.05) 70%
+  );
+  z-index: 0;
+  border-radius: 11px;
 }
+
+.img-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  z-index: 0;
+  border-radius: 11px;
+  background: linear-gradient(
+    to bottom,
+    rgba(11, 16, 115, 0.8) 0%,
+    rgba(11, 16, 115, 0.4) 40%,
+    rgba(11, 16, 115, 0.2) 60%,
+    rgba(11, 16, 115, 0.05) 100%
+  );
+  mix-blend-mode: color;
+}
+
+.img-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  z-index: 0;
+  border-radius: 11px;
+  background: radial-gradient(
+      circle at top left,
+      rgba(11, 16, 115, 0.75) 0%,
+      rgba(11, 16, 115, 0) 30%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(11, 16, 115, 0.75) 0%,
+      rgba(11, 16, 115, 0) 30%
+    );
+}
+
+.img-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  z-index: 0;
+  border-radius:11px;
+  background:linear-gradient( to bottom right, rgba(2, 14, 255, 0.5) 0%, rgba(11, 16, 115, 0.3) 40%, rgba(11, 16, 115, 0.1) 80% );
+}
+
 
 .why-img{
   display: flex;
@@ -878,7 +951,7 @@ a svg.arrow-icon {
   transform: translateX(-50%) translateY(11%);
   border-radius:50%;
   z-index: 0;
-  background: radial-gradient(circle, rgba(47, 37, 108, 0.7) 0%, rgba(0,0,0,0) 70%);
+  background:radial-gradient(circle, rgba(15, 1, 97, 0.77) 0%, rgba(0,0,0,0) 70%);
   pointer-events: none;
   filter: blur(20px);
   mix-blend-mode: plus-lighter;
