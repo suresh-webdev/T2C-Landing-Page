@@ -24,7 +24,7 @@ body{
 .landing-page-wrapper{
     display: flex;
     flex-direction: column;
-    height: 100vw;
+    height: 150vw;
     background-color: black;
     background-image: url('../assets/home_top_bg.jpg');
     background-size: cover;
@@ -188,8 +188,8 @@ body{
   .animation-wrapper > div:nth-child(4) {
     top: 60%;
     /* left: 10%; */
-    width: 312px;
-    transform: translate(15%,-35%);
+    width: 22vw;
+    transform: translate(1vh,-34%);
   }
   
   .animation-card-content{
@@ -209,7 +209,7 @@ body{
   }
 
   .animation-img{
-    height: 156px;
+    height: 10vw;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     margin-top: 1rem;
@@ -451,8 +451,8 @@ a svg.arrow-icon {
   position: absolute;
   top: 52% !important;
   left: 43% !important;
-  width: 750px;
-  height: 200px;
+  width: 55vw;
+  height: 20vw;
   inset:0;
   top: 0px;
   left: 0px;
@@ -469,8 +469,8 @@ a svg.arrow-icon {
   position: absolute;
   top: 43% !important;
   left: 60.3% !important;
-  width: 600px;
-  height: 240px;
+  width: 38vw;
+  height: 30vw;
   background:radial-gradient(ellipse at center, #002a75bf, #112343);
   filter: blur(70px);
   opacity: 0.9;
@@ -871,20 +871,20 @@ a svg.arrow-icon {
 
 .outer-radial-effect-left{
   position: absolute;
-  width: 400px;
-  height: 400px;
-  background: radial-gradient(circle, rgba(47, 37, 108, 0.7) 0%, rgba(0,0,0,0) 70%);
+  width: 30vw;
+  height: 20vw;
+  background:radial-gradient(circle, rgb(47, 37, 108) 0%, rgba(0,0,0,0) 70%);
   pointer-events: none;
-  transform: translateX(-41%);
+  transform: translate(-10vw,5vw);
 }
 
 .outer-radial-effect-right{
   position: absolute;
-  width: 300px;
-  height: 400px;
+  width: 30vw;
+  height: 20vw;
   background:radial-gradient(circle, rgba(47, 37, 108, 0.7) 63%, rgba(0,0,0,0) 70%);
   pointer-events: none;
-  transform: translateX(380%);
+  transform: translate(65vw,3vw);
   filter: blur(45px);
 
 }
@@ -1524,4 +1524,35 @@ font-size: 3vw;
 .solution-card-text > h4{
 font-size: 3vw;
 }
+}
+
+
+@media screen and (min-width: 1100px) {
+  .landing-page-wrapper {
+    height: 150vw;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .landing-page-wrapper {
+    height: 140vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .landing-page-wrapper {
+    height: 130vw;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .landing-page-wrapper {
+    height: 120vw;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .landing-page-wrapper {
+    height: 100vw;
+  }
 }

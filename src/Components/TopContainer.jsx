@@ -21,7 +21,7 @@ const initialData = [
 
 const TopContainer = () => {
 
-    const [cardData, setCardData] = useState(initialData);
+     const [cardData, setCardData] = useState(initialData);
 
     useEffect(() => {
         const interval = setInterval(() => {
