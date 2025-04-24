@@ -1174,6 +1174,7 @@ a svg.arrow-icon {
   .why-card-container{
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
   }
 
   .why-wrapper >h1{
@@ -1188,6 +1189,7 @@ a svg.arrow-icon {
 
   .why-card{
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   /* Solution T2C */
@@ -1199,6 +1201,7 @@ a svg.arrow-icon {
   .solution-card-container{
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
   }
 
   .solution-wrapper > h1{
@@ -1497,6 +1500,7 @@ font-size: 2vw;
 .why-card-container{
 flex-direction: column;
 align-items: center;
+margin-bottom: 0;
 }
 
 .why-wrapper >h1{
@@ -1517,6 +1521,7 @@ width: 90%;
 }
 .why-card{
 width: 100%;
+margin-bottom: 2rem;
 }
 
 .why-icon{
@@ -1531,6 +1536,7 @@ display: none;
 .solution-card-container{
 flex-direction: column;
 align-items: center;
+margin-bottom: 0;
 }
 
 .solution-wrapper > h1{

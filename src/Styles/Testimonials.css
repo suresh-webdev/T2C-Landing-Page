@@ -258,7 +258,6 @@
     .testimonial-cards {
         display: flex;
         gap: 1rem;
-        margin: 3rem 0;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
@@ -364,7 +363,6 @@
     .testimonial-cards {
         display: flex;
         gap: 1rem;
-        margin: 3rem 0;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
