@@ -882,9 +882,9 @@ a svg.arrow-icon {
   position: absolute;
   width: 30vw;
   height: 20vw;
-  background:radial-gradient(circle, rgba(47, 37, 108, 0.7) 63%, rgba(0,0,0,0) 70%);
+  background:radial-gradient(circle, rgba(47, 37, 108, 1) 70%, rgba(0,0,0,0) 70%);
   pointer-events: none;
-  transform: translate(65vw,3vw);
+  transform: translate(64vw,3vw);
   filter: blur(45px);
 
 }
