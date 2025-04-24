@@ -76,7 +76,7 @@ body{
 
 .title-first-heading{
     font-weight: 600;
-    font-size: 65px;
+    font-size: 4.5vw;
     line-height: 4.5rem;
     color: #FFFFFF;
     padding: 1rem  0;
@@ -84,7 +84,7 @@ body{
 
 .title-second-heading{
     font-weight: 600;
-    font-size: 65px;
+    font-size: 4.5vw;
     line-height: 4.5rem;
     background: linear-gradient(90deg, white, #296af6);
     -webkit-background-clip: text;
@@ -271,7 +271,7 @@ body{
 
 .innovation-wrapper > h1{
   padding: 1rem 0;
-  font-size: 60px;
+  font-size: 4vw;
   font-weight: 600;
   background: linear-gradient(90deg, #909DC1 40%, #3663DE);
   -webkit-background-clip: text;
@@ -362,7 +362,7 @@ body{
 
 .technology-wrapper > h1{
   padding: 1rem 0;
-  font-size: 60px;
+  font-size: 4vw;
   font-weight: 600;
   background: linear-gradient(90deg, #909DC1 40%, #3663DE);
   -webkit-background-clip: text;
@@ -491,7 +491,7 @@ a svg.arrow-icon {
   height: 30vw;
   background:radial-gradient(ellipse at center, #002a75bf, #112343);
   filter: blur(70px);
-  opacity: 0.9;
+  opacity: 0.3;
   z-index: -1;
   pointer-events: none;
 }
@@ -519,7 +519,7 @@ a svg.arrow-icon {
 *
 .about-t2c-text > h1{
   padding: 1rem 0;
-  font-size: 60px;
+  font-size:4vw;
   font-weight: 600;
   background: linear-gradient(90deg, #909DC1 40%, #3663DE);
   -webkit-background-clip: text;
@@ -576,7 +576,7 @@ a svg.arrow-icon {
 
 .why-wrapper > h1{
   padding: 1rem 0;
-  font-size: 60px;
+  font-size: 4vw;
   font-weight: 600;
   background: linear-gradient(90deg, #909DC1 40%, #3663DE);
   -webkit-background-clip: text;
@@ -596,7 +596,7 @@ a svg.arrow-icon {
   justify-content: space-between;
   width: 90%;
   margin: 3rem 0;
-  gap: 2.5rem;
+  gap: rem;
 }
 
 .why-card-container > .card-1{
@@ -628,6 +628,7 @@ a svg.arrow-icon {
 }
 .why-card-text{
   padding: 1rem;
+  margin-top: .5rem;
 }
 
 .why-card-text > p{
@@ -667,7 +668,7 @@ a svg.arrow-icon {
 .why-card{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 23%;
   align-items: center;
   border-radius: 11px;
   overflow: hidden;
@@ -770,7 +771,7 @@ a svg.arrow-icon {
 
 .solution-wrapper > h1{
   padding: 1rem 0;
-  font-size: 60px;
+  font-size:4vw;
   font-weight: 600;
   background: linear-gradient(90deg, #909DC1 40%, #3663DE);
   -webkit-background-clip: text;

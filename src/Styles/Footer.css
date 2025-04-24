@@ -81,7 +81,8 @@ a svg.social-icon {
 
 
 .footer-wrapper > hr{
-    color:#333333;
+    color:#48465D;
+    opacity: .5;
 }
 
 .footer-bottom{
