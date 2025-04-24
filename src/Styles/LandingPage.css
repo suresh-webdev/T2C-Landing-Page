@@ -1586,6 +1586,12 @@ font-size: 3vw;
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .landing-page-wrapper {
+    height: 110vw;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   .landing-page-wrapper {
     height: 100vw;
