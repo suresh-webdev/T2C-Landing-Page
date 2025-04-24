@@ -1045,9 +1045,7 @@ a svg.arrow-icon {
       margin-top: 5rem;
     }
 
-    .innovation-container{
-      margin-top: 5rem;
-    }
+  
 
     .innovation-wrapper > h1{
       font-size: 7vw;
@@ -1115,8 +1113,12 @@ a svg.arrow-icon {
       width: 284px;         
     }
 
-    .tech-card-text > p,  .tech-card-text > a{
+    .tech-card-text > p{
       font-size: 3vw;
+    }
+
+    .tech-card-text > a{
+      font-size: 2.7vw;
     }
 
   .tech-card-container::-webkit-scrollbar {
@@ -1351,12 +1353,17 @@ a svg.arrow-icon {
     height: 20vw;
   }
   
-  /* Hide pattern */
-  .bg-spiral{
-    opacity: 0;
+    /* Hide pattern */
+    .spiral-container{
+      display: none;
+    }
+
+  /* Innovation Container */
+  .innovation-container{
+    margin-top: 5rem;
   }
 
-/* Innovation Container */
+
 
 .innovation-wrapper > h1{
   font-size: 6vw;
@@ -1366,6 +1373,8 @@ a svg.arrow-icon {
   width: 90%;
   font-size: 2vw;
 }
+
+
 
 .board-container{
   flex-direction: column;
@@ -1428,8 +1437,11 @@ height: 36vw;
   font-size: 2.5vw;
 }
 
-.tech-card-text > p,  .tech-card-text > a{
+.tech-card-text > p{
   font-size: 2vw;
+}
+.tech-card-text > a{
+  font-size: 1.7vw;
 }
 
 .tech-card-container::-webkit-scrollbar {
